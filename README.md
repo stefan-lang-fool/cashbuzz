@@ -1,3 +1,16 @@
+Hello All Hackers and developers
+
+This is source code for https://regios.app/
+
+Please check this.
+
+CEO (Fool, Stealer) : Stefan Lang / linkedin.com/in/stefanlang / Twitter: DigiAvenger
+CTO (Fool, Stealer) : Alexander
+
+cashbuzz
+https://finanzmining.de/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
