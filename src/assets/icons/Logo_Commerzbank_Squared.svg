@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="10 0 55.233002 47.841999"
+   version="1.1"
+   id="svg176"
+   sodipodi:docname="Logo_Commerzbank_Squared.svg"
+   width="55.233002"
+   height="47.841999"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
+  <defs
+     id="defs170">
+    <radialGradient
+       cx="0"
+       cy="0"
+       r="1"
+       fx="0"
+       fy="0"
+       id="radialGradient3640"
+       xlink:href="#radialGradient263"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(42.763045,0,0,42.763045,59.61261,51.8296)"
+       spreadMethod="pad" />
+    <radialGradient
+       cx="0"
+       cy="0"
+       r="1"
+       fx="0"
+       fy="0"
+       id="radialGradient263"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(24.979874,0,0,-24.979874,568.24237,786.90625)"
+       spreadMethod="pad">
+      <stop
+         id="stop265"
+         style="stop-color:#fedf33;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop267"
+         style="stop-color:#fbb809;stop-opacity:1"
+         offset="0.44000199" />
+      <stop
+         id="stop269"
+         style="stop-color:#ee960d;stop-opacity:1"
+         offset="0.89999402" />
+      <stop
+         id="stop271"
+         style="stop-color:#d87301;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0"
+       cy="0"
+       r="1"
+       fx="0"
+       fy="0"
+       id="radialGradient3643"
+       xlink:href="#radialGradient239"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(42.643644,0,0,42.643644,17.426676,40.283007)"
+       spreadMethod="pad" />
+    <radialGradient
+       cx="0"
+       cy="0"
+       r="1"
+       fx="0"
+       fy="0"
+       id="radialGradient239"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(24.910126,0,0,-24.910126,543.59962,793.65115)"
+       spreadMethod="pad">
+      <stop
+         id="stop241"
+         style="stop-color:#fedf33;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop243"
+         style="stop-color:#fbb809;stop-opacity:1"
+         offset="0.44000199" />
+      <stop
+         id="stop245"
+         style="stop-color:#ee960d;stop-opacity:1"
+         offset="0.89999402" />
+      <stop
+         id="stop247"
+         style="stop-color:#e17a10;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0"
+       cy="0"
+       r="1"
+       fx="0"
+       fy="0"
+       id="radialGradient3646"
+       xlink:href="#radialGradient215"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(42.660596,0,0,42.660596,48.509159,9.3396608)"
+       spreadMethod="pad" />
+    <radialGradient
+       cx="0"
+       cy="0"
+       r="1"
+       fx="0"
+       fy="0"
+       id="radialGradient215"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(24.920029,0,0,-24.920029,561.75633,811.72659)"
+       spreadMethod="pad">
+      <stop
+         id="stop217"
+         style="stop-color:#fedf33;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop219"
+         style="stop-color:#fbb809;stop-opacity:1"
+         offset="0.44000199" />
+      <stop
+         id="stop221"
+         style="stop-color:#ee960d;stop-opacity:1"
+         offset="0.89999402" />
+      <stop
+         id="stop223"
+         style="stop-color:#e17a10;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+  </defs>
+  <metadata
+     id="metadata173">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       inkscape:label="Ebene 1"
+       id="layer1-8"
+       transform="matrix(1.0018075,0,0,0.99999033,-4.2889804,-9.3405832)">
+      <path
+         d="m 28.974085,9.3406738 c -0.01027,0 -0.02225,0.00342 -0.0291,0.015407 v 0 l -10.836333,18.7692722 -3.398122,5.885512 -0.393737,0.683048 -0.05136,0.08731 c -0.0034,0.0068 -0.0034,0.01883 0.0034,0.03253 v 0 L 24.591618,52.69283 V 52.61922 C 24.367359,52.208362 24.20644,51.891662 24.120845,51.693078 v 0 c -0.431399,-0.977492 -0.6762,-2.329894 -0.61286,-3.644632 v 0 c 0.174614,-3.461462 2.014907,-6.876704 2.941046,-8.479042 v 0 c 2.17069,-3.759332 6.366559,-11.029772 6.366559,-11.029772 v 0 c 0,0 4.197582,-7.270439 6.368272,-11.031483 v 0 c 0.924426,-1.600627 2.9633,-4.902882 5.875244,-6.78426 v 0 c 1.104175,-0.713862 2.401795,-1.1760753 3.45975,-1.2924845 v 0 c 0.775489,-0.087307 3.350186,-0.090731 6.267265,-0.090731 v 0 z"
+         id="path225"
+         style="fill:url(#radialGradient3646);stroke:none;stroke-width:1.7119" />
+      <path
+         d="m 14.354455,34.955834 c 0.16263,0.284175 0.323549,0.564927 0.482756,0.83883 v 0 z m 51.925362,5.238413 c -0.63169,0.859375 -1.679374,1.751275 -2.850314,2.350439 v 0 c -3.086555,1.580084 -6.962296,1.694781 -8.811149,1.694781 v 0 H 41.880105 29.143563 c -1.848853,0 -5.729733,-0.114697 -8.811153,-1.694781 v 0 c -1.172652,-0.599164 -2.220335,-1.491064 -2.852026,-2.350439 v 0 C 17.0798,39.648152 16.05266,37.89859 14.837211,35.794664 v 0 l 2.590104,4.488602 9.747562,16.88447 c 0.0051,0.0086 0.01712,0.0154 0.02739,0.0154 v 0 h 29.357382 c 0.0086,0 0.02053,-0.0086 0.02566,-0.01712 v 0 L 69.376632,35.012318 c -1.410607,2.44288 -2.646598,4.570773 -3.096829,5.181921"
+         id="path249"
+         style="fill:url(#radialGradient3643);stroke:none;stroke-width:1.7119" />
+      <path
+         d="m 48.518856,9.4314045 c -1.057955,0.1164092 -2.355575,0.5786225 -3.45975,1.2924845 v 0 c -1.218874,0.787474 -2.283677,1.823173 -3.179001,2.879416 v 0 c 1.244553,1.467098 2.158707,2.971858 2.696245,3.904844 v 0 c 2.170689,3.761044 6.369979,11.031483 6.369979,11.031483 v 0 c 0,0 4.195868,7.27044 6.368269,11.029772 v 0 c 0.922713,1.602338 2.764719,5.01758 2.935907,8.479042 v 0 c 0.06505,1.314738 -0.183174,2.66714 -0.609436,3.644632 v 0 c -0.299582,0.683049 -1.489353,2.759583 -2.870856,5.152822 v 0 L 69.494766,34.80861 c 0,-0.0017 0.0016,-0.0034 0.0016,-0.0068 v 0 -0.0137 c 0,-0.0034 -0.0016,-0.0068 -0.0034,-0.0086 v 0 L 54.813511,9.3577928 c -0.0051,-0.011983 -0.01541,-0.017119 -0.02739,-0.017119 v 0 c -2.917079,0 -5.491776,0.00342 -6.267265,0.090731"
+         id="path273"
+         style="fill:url(#radialGradient3640);stroke:none;stroke-width:1.7119" />
+    </g>
+  </g>
+</svg>

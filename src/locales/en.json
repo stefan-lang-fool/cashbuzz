@@ -1,0 +1,909 @@
+{
+  "account": {
+    "bic": "BIC: ",
+    "iban": "IBAN",
+    "interface": {
+      "interface": "Interface",
+      "interface_status": "finAPI status",
+      "last_successful_update": "Last successful update",
+      "last_update_attempt": "Last update attempt"
+    }
+  },
+  "account_status": {
+    "0": "All application views are up-to-date.",
+    "1": "Contract, obligation and projection evaluation in progress. Views are not up-to-date yet.",
+    "2": "Data categorization in progress. Views are not up-to-date yet.",
+    "3": "Data synchronization in progress, Views are not up-to-date-yet."
+  },
+  "add_new_bank_connection": {
+    "title": "Top banks",
+    "banks": {
+      "consorsbank": "Consorsbank",
+      "comdirect": "Comdirect",
+      "commerzbank": "Commerzbank",
+      "deutche-bank": "Deutsche Bank",
+      "dkb": "DKB",
+      "flatex": "Flatex",
+      "hello_bank": {
+        "content": "For Hello-Bank Austria we do not track your trades on a connected bank account. Instead, you upload the trade settlement statements in the Documents menu. If you click on Continue, we will redirect you cirectly to this menu.",
+        "name": "Hello-Bank"
+      },
+      "hypovereinsbank": "HypoVereinsbank",
+      "ing": "ING",
+      "onvista": "Onvista",
+      "other-volksbanken": "Other Volksbanken",
+      "postbank": "Postbank",
+      "s-broker": "S-Broker",
+      "smartbroker": {
+        "content": "For Smartbroker we do not track your trades on a connected bank account. Instead, you upload the trade settlement statements in the Documents menu. If you click on Continue, we will redirect you cirectly to this menu.",
+        "name": "Smartbroker"
+      },
+      "sparda-banken": "Sparda Banks",
+      "sparkassen": "Sparkassen",
+      "volksbank-eg": "Volksbank eG, Seesen",
+      "volksbanken": "Volksbanken"
+    },
+    "categorization_status": {
+      "0": "All application views are up-to-date. You may switch to other menus.",
+      "1": "Data are currently prepared for reporting. Please be patient and do not leave this menu yet.",
+      "2": "Bank bookings are currently analyzed. Please be patient and do not leave this menu yet.",
+      "3": "Bank bookings are currently retrieved. Please be patient and do not leave this menu yet."
+    },
+    "categorization_status_guided_tour": {
+      "0": "Data have been retrieved and analyzed completely.",
+      "1": "Data are currently prepared for reporting. Please be patient.",
+      "2": "Bank bookings are currently analyzed. Please be patient.",
+      "3": "Bank bookings are currently retrieved. Please be patient."
+    },
+    "connection_failure": "We could not connect your bank account using this access method",
+    "fin_api_error": "The bank provided the following error message: {{message}}",
+    "info": {
+      "general": "Connect to your bank now. Please keep in mind that your bank requires a second factor during the connection process. Unfortunately, some bank interfaces are not always stable since the start of PSD2 regulation. If anything does not work, please do not hesitate to send us an email at service@cashbuzz.io.",
+      "sme": "Connect to your bank now. Please keep in mind that your bank requires a second factor during the connection process. Unfortunately, some bank interfaces are not always stable since the start of PSD2 regulation. If anything does not work, please do not hesitate to send us an email at service@cashbuzz.io.",
+      "trader": "Connect to your bank now in order to receive cashbacks. We verify your trades and other activities eligible for cashback in this way. Please keep in mind that your bank requires a second factor during the connection process. Unfortunately, some bank interfaces are not always stable since the start of PSD2 regulation. If anything does not work, please do not hesitate to send us an email at service@cashbuzz.io."
+    },
+    "interface_selection": {
+      "AUTOMATIC": "Standard",
+      "FINTS_SERVER": "FinTS",
+      "WEB_SCRAPER": "Web Scraping",
+      "XS2A": "XS2A"
+    },
+    "search": {
+      "title": "Search more banks",
+      "label": "Or search for banks",
+      "placeholder": "Enter bank name, BIC or BLZ (min. 3 characters)"
+    },
+    "steps": {
+      "first_step": "Select bank",
+      "second_step": "Connect your account",
+      "third_step": "Retrieve data"
+    },
+    "table": {
+      "columns": {
+        "actions": "Actions",
+        "advanced_options": "Options for account access",
+        "bic": "BIC",
+        "blz": "BLZ",
+        "name": "Bank"
+      },
+      "no_data":"No data available"
+    }
+  },
+  "affinities": {
+    "household": {
+      "charts": {
+        "expenses": {
+          "hint_description": "Hover mouse over ring segments or click on them.",
+          "title": "Expenses"
+        },
+        "income": {
+          "hint_description": "Hover mouse over ring segments or click on them.",
+          "title": "Income"
+        }
+      },
+      "end_date":"End date",
+      "start_date":"Start date",
+      "title": "Household segmentation"
+    },
+    "table": {
+      "columns": {
+        "rank": "Rank",
+        "category": "Category",
+        "value": "Affinity value"
+      }
+    },
+    "title": "Affinities compared to peer group",
+    "no_data": "No data available yet. Affinities are computed on a regular basis but not in real-time. Please check back later."
+  },
+  "attributes": {
+    "table": {
+      "columns": {
+        "date": "Date",
+        "property": "Property",
+        "property_group": "Property group",
+        "section": "Section",
+        "value": "Value"
+      }
+    }
+  },
+  "auth": {
+    "email": "E-mail address",
+    "email_validation_code": "Validation code",
+    "email_validation_info": "We have sent you a validation code by email to verify your email address. Please enter the validation code now.",
+    "forgot_password": "Forgot password?",
+    "forgot_password_code": "Code",
+    "login": "Login",
+    "password": "Password",
+    "password_confirmation": "Retype password",
+    "register": "Register",
+    "tos_acceptance_info": "We are updating our Terms of Use and Privacy Policy. Please accept them to continue using our service."
+  },
+  "bank_accounts": {
+    "add_securities": "Add securities",
+    "delete_bank_account": "Delete bank connection",
+    "delete_bank_account_question": "Are you sure that you want to delete this bank connection?",
+    "missing_visibility": "Account visibility is not yet fully configured in the Bank accounts menu.",
+    "resync_account": "Resync account",
+    "table": {
+      "columns": {
+        "account_name": "Account",
+        "actions": "Actions",
+        "bank_name": "Bank",
+        "status": "Status",
+        "visibility": "Visibility"
+      },
+      "no_data":"No data available",
+      "selection_status": {
+        "no": "No",
+        "null": "Unconfirmed",
+        "yes": "Yes"
+      },
+      "sync_status": {
+        "false": "Not in sync",
+        "true": "In sync"
+      }
+    }
+  },
+  "cashback": {
+    "expiration_date": "Expiration date",
+    "partner_name": "Partner",
+    "reward": "Amount",
+    "status": "Status",
+    "status_codes": {
+      "approved": "Approved",
+      "claimed": "Claimed",
+      "inPayout": "In payout",
+      "limitExceeded": "Limit exceeded",
+      "new": "New cashback",
+      "paymentScheduled": "Payment scheduled",
+      "payoutError": "Payout error",
+      "redeemed": "Received",
+      "rejectedByCashbuzz": "Rejected",
+      "rejectedByPartner": "Rejected by partner",
+      "unknown": "Unknown status"
+    },
+    "value_date": "Transaction date"
+  },
+  "cashbacks": {
+    "missing_kyc_light": "There is some problem with your data. Please provide a correct birthdate (at least 16 years old) and address.",
+    "missing_requirements": "Requirements are not met",
+    "table": {
+      "no_data":"No data available"
+    },
+    "update_partner_dialog": {
+      "title": "Partner terms and conditions"
+    },
+    "update_tospp_dialog": {
+      "title": "Cashbuzz policy"
+    }
+  },
+  "change_email": {
+    "confirm_email": "Confirm new email",
+    "dialog_title": "Change email",
+    "first_step": "Set new email"
+  },
+  "change_password": {
+    "confirm_password": "Confirm new password",
+    "dialog_title": "Change password",
+    "new_password": "New password",
+    "old_password": "Old password"
+  },
+  "code": {
+    "code_already_used": "You have used this code already",
+    "code_not_found": "This code is not valid",
+    "enter_code": "Enter a code",
+    "enter_code_info": "You might get special codes from time to time from us. Or somebody provided you with a code for susccessful registration. Enter those codes here to receive rewards or to get access to new functionality.",
+    "enter_code_placeholder": "Code",
+    "submitted": "Code successfully submitted",
+    "your_code": "Your personal code",
+    "your_code_info": "Below is your personal code. Use your personal code for special offers. Such offers are available from time to time, and special terms and conditions apply."
+  },
+  "common": {
+    "actions": "Actions",
+    "amount": "Amount",
+    "back": "Back",
+    "bool": {
+      "false": "No",
+      "true": "Yes"
+    },
+    "cancel": "Cancel",
+    "cashbacks": "Cashbacks",
+    "change": "Change",
+    "confirm": "Confirm",
+    "connect": "Connect",
+    "continue": "Continue",
+    "delete": "Delete",
+    "details": "Details",
+    "download": "Download",
+    "edit": "Edit",
+    "english": "English",
+    "german": "German",
+    "internal_error": "An internal error has occurred",
+    "language": "Language",
+    "not_available": "N/A",
+    "other": "Other",
+    "proceed": "Proceed",
+    "redeem": "Redeem",
+    "resync": "Resync",
+    "return": "Return",
+    "return_to": "Return to {{0}}",
+    "save": "Save",
+    "select": "Select",
+    "send": "Upload",
+    "type": "Type",
+    "view": "View"
+  },
+  "contract": {
+    "category": "Category",
+    "contract_ident": "Contract number",
+    "customer_ident": "Customer number",
+    "first_payment": "First payment",
+    "last_payment": "Latest payment",
+    "name": "Partner",
+    "payments": "Payments",
+    "period": "Frequency",
+    "regular_amount": "Regular amount",
+    "total_amount": "Total amount"
+  },
+  "contracts": {
+    "details_view": {
+      "back_button": "Back",
+      "table": {
+        "no_data":"No data available"
+      },
+      "title": "Related bookings"
+    },
+    "list_view": {
+      "table": {
+        "bookings_button": "Bookings",
+        "no_available_details": "No contract details available",
+        "no_data":"No data available"
+      },
+      "title": "Contracts"
+    }
+  },
+  "document": {
+    "bank": "Bank",
+    "cashback": "Cashbacks",
+    "file_name": "File name",
+    "file_status": "Status",
+    "status": {
+      "checked_cashback": "Checked for cashback",
+      "rejected": "Document rejected",
+      "uploaded": "Document not checked yet",
+      "verified": "Waiting for cashback check"
+    },
+    "upload_ts": "Upload date"
+  },
+  "documents": {
+    "delete_document": "Delete document",
+    "delete_document_question": "Are you sure that you want to delete this document?",
+    "sections": {
+      "list": {
+        "no_data": "No data available",
+        "subTitle": "Uploaded documents will be analyzed automatically. Tade settlement statements of Smartbroker or Hello-Bank Austria will be checked for cashback trades. Please note that the analysis takes place several times per day, but not instantly. Any cashbacks will appear in the cashback menu. Please note: For the Safari browser, some actions do not work properly at present. We are working on that.",
+        "title": "Uploaded documents"
+      },
+      "upload": {
+        "subTitle": "Drag and drop your documents to the highlighted area or click into the area to select and upload them. Currently you can only upload trade settlement statements from Smartbroker and Hello-Bank Austria in PDF format to receive cashbacks for trades at these banks. For all other banks please continue to use the option to connect a bank account.",
+        "text": "Drag and drop a files here (up to 50 simultaneously) or click in area",
+        "title": "Upload documents"
+      }
+    }
+  },
+  "edit_profile": {
+    "address_city": "City",
+    "address_country": "Country",
+    "address_house_number": "House No.",
+    "address_street": "Street",
+    "address_zip_code": "Zip code",
+    "birthday": "Date of birth",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "invalid_address": "This is not a valid address. Please correct it, then continue",
+    "type_error": "We corrected a typo in the address. Please review, then continue"
+  },
+  "email_confirmation": {
+    "error": "We can not verify your e-mail right now",
+    "invalid_code": "The code is not correct",
+    "resend_code_link": "Resend",
+    "resend_code_info": "You did not receive a validaten code, or it has expired already?",
+    "resend_code_success": "We have sent to you a new validation code."
+  },
+  "expenses": {
+    "bookings_button": "Bookings",
+    "details_view": {
+      "back_button": "Back",
+      "table": {
+        "no_data":"No data available"
+      },
+      "title": "Related bookings"
+    },
+    "evaluation_values": {
+      "black": "Very high risk",
+      "green": "Low risk",
+      "red": "High risk",
+      "white": "No rating",
+      "yellow": "Medium risk"
+    },
+    "general": {
+      "charts": {
+        "expenses_by_category": "By category",
+        "expenses_by_evaluation": "Evaluation of providers",
+        "expenses_by_expenses_type": "By expenses type",
+        "expenses_by_source": "By provider",
+        "hint_description": "Hover mouse over ring segments or click on them."
+      },
+      "table": {
+        "no_data":"No data available"
+      }
+    },
+    "sme": {
+      "charts": {
+        "expenses_by_category": "By category",
+        "expenses_by_evaluation": "Evaluation of suppliers",
+        "expenses_by_expenses_type": "By expenses type",
+        "expenses_by_source": "By industry",
+        "hint_description": "Hover mouse over ring segments or click on them."
+      },
+      "table": {
+        "no_data":"No data available"
+      }
+    }
+  },
+  "forgot_password": {
+    "first_step": "Send reset password email",
+    "second_step": "Enter reset password code",
+    "third_step": "Enter new password"
+  },
+  "income": {
+    "bookings_button": "Bookings",
+    "details_view": {
+      "back_button": "Back",
+      "table": {
+        "no_data":"No data available"
+      },
+      "title": "Related bookings"
+    },
+    "evaluation_values": {
+      "black": "Very high risk",
+      "green": "Low risk",
+      "red": "High risk",
+      "white": "No rating",
+      "yellow": "Medium risk"
+    },
+    "general": {
+      "charts": {
+        "income_by_category": "By category",
+        "income_by_evaluation": "Evaluation of sources",
+        "income_by_income_type": "By income type",
+        "income_by_source": "By source",
+        "hint_description": "Hover mouse over ring segments or click on them."
+      },
+      "table": {
+        "no_data":"No data available"
+      }
+    },
+    "sme": {
+      "charts": {
+        "income_by_category": "By category",
+        "income_by_evaluation": "Evaluation of customers",
+        "income_by_income_type": "By income type",
+        "income_by_source": "By industry",
+        "hint_description": "Hover mouse over ring segments or click on them."
+      },
+      "table": {
+        "no_data":"No data available"
+      }
+    }
+  },
+  "invoices": {
+    "change_transaction": "Change",
+    "delete_invoice": "Delete invoice",
+    "delete_invoice_question": "Are you sure that you want to delete this invoice?",
+    "due_date_error": "Due date must not be earlier than invoice date",
+    "form": {
+      "add_new_invoice": "New invoice",
+      "customer_section": "Invoice recipient",
+      "customer_section_remarks": "Enter the invoice recipient. The system will make suggestions if you type at least four characters. You can select suggestions and adjust them if necessary, or create completely new entries.",
+      "edit_invoice": "Edit invoice",
+      "invoice_section_remarks": "Please enter the invoice data as they appear on the invoice to your customer. This is especially important for the invoice number so that we can automatically determine when the money is booked at your bank.",
+      "fields": {
+        "amount": "Amount",
+        "code_city": "Zip code & city",
+        "country": "Country",
+        "customer_number": "Customer No.",
+        "due_date": "Due date",
+        "invoice_date": "Invoice date",
+        "invoice_number": "Invoice No.",
+        "name": "Recipient",
+        "street_address": "Street address"
+      },
+      "go_back": "Go back",
+      "save": "Save"
+    },
+    "remove_transaction": "Remove",
+    "select_transaction": "Assign",
+    "table": {
+      "columns": {
+        "actions": "Actions",
+        "amount": "Amount",
+        "booked": "Booked",
+        "customer": "Recipient",
+        "due_date": "Due Date",
+        "invoice_date": "Invoice Date",
+        "invoice_number": "Invoice No.",
+        "paid_date": "Paid Date"
+      },
+      "delete": "Delete",
+      "edit": "Edit",
+      "no": "No",
+      "no_data": "No data available",
+      "yes": "Yes"
+    },
+    "transaction_list": {
+      "back_button": "Back",
+      "description": "Please select the bank booking which represents the invoice payment.",
+      "title": "Assign bank booking to invoice"
+    },
+    "transaction_section": {
+      "empty": {
+        "button": "Assign",
+        "description": "Here you can assign a bank booking which represents the invoice payment. If there is no payment of the invoice yet, ignore this section.",
+        "title": "Assign bank booking to invoice"
+      },
+
+      "selected": {
+        "description": "The bank booking shown here has been assigned to the invoice as invoice payment. You can still change or delete the assignment.",
+        "title": "Bank booking assigned to invoice"
+      }
+    },
+    "invalid_address": "This is not a valid address. Please correct it, then continue",
+    "type_error": "We corrected a typo in the address. Please review, then continue"
+  },
+  "category_tree": {
+    "indy": "Industries",
+    "subj": "Subject",
+    "actn": "Actions",
+    "ggrp": "Group",
+    "gcix": "ConsumerIX",
+    "gstd": "Standard",
+    "gbix": "BusinessIX"
+  },
+  "login": {
+    "invalid_credentials": "Invalid credentials",
+    "continue_to_login": "Continue to login"
+  },
+  "login_slider": {
+    "first_slide": {
+      "description": "Get full cashback on order fees. Up to 50 € per trade at most banks and brokers for order volumes up to 15,000 €",
+      "title": "Trade HVB products for 0 €"
+    },
+    "second_slide": {
+      "description": "Cashbacks are available for around 4,000 banks and brokers. Focus on trading, not on finding the cheapest broker.",
+      "title": "Full focus on trading"
+    },
+    "third_slide": {
+      "description": "Get ready instantly. Just connect your trading account.Cashbacks are identified and paid automatically.",
+      "title": "Setup takes a few easy steps only"
+    }
+  },
+  "menu": {
+    "general-accounts": "Bank accounts",
+    "general-affinities": "Segmentation",
+    "general-attributes": "Properties",
+    "general-category-tree": "Category Tree",
+    "regios-overview": "Regios",
+    "general-connection": "Add bank connection",
+    "general-contact": "Support",
+    "general-contracts": "Contracts",
+    "general-expenses": "Expenses",
+    "general-income": "Income",
+    "general-logout": "Logout",
+    "general-overview": "Dashboard",
+    "general-profile": "Profile & settings",
+    "general-profitloss": "Income & expenses",
+    "general-transactions": "Bookings",
+    "general-vouchers": "Vouchers",
+    "trader-cashback": "Cashbacks",
+    "trader-connection": "Add bank connection",
+    "trader-documents": "Documents",
+    "trader-faq": "FAQ",
+    "trader-mgm": "Special Offers",
+    "trader-overview": "Dashboard",
+    "trader-profile": "Profile & settings",
+    "trader-reports": "Cashback report",
+    "trader-securities": "Securities",
+    "trader-trades": "Trades",
+    "trader-transactions": "Bookings",
+    "sme-connection": "Add bank connection",
+    "sme-contracts": "Contracts",
+    "sme-expenses": "Suppliers",
+    "sme-faq": "FAQ",
+    "sme-income": "Customers",
+    "sme-invoices": "Invoices",
+    "sme-overview": "Dashboard",
+    "sme-profile": "Profile & settings",
+    "sme-profitloss": "Income & expenses",
+    "sme-transactions": "Bookings",
+    "pocket-flowerchart-test": "Flower chart test",
+    "pocket-transactions": "Bookings",
+    "credits": "Credits",
+    "imprint": "Imprint",
+    "terms_of_use": "Terms Of Use",
+    "privacy_policy": "Privacy Policy"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "login": "Login"
+  },
+  "onboarding": {
+    "bank_connection": {
+      "info": "Connect to your bank now in order to receive cashbacks. We verify your trades and other activities eligible for cashback in this way. Please keep in mind that your bank requires a second factor during the connection process. Unfortunately, some bank interfaces are not always stable since the start of PSD2 regulation. If anything does not work, please do not hesitate to send us an email at service@cashbuzz.io."
+    },
+    "personal_data": {
+      "info": "Please provide your full name, address and date of birth. We need this information for legal reasons in order to process your cashbacks."
+    },
+    "partner_policy": {
+      "auto_redeem": "Auto-redeem cashbacks so that eligible cashbacks are redeemed and paid automatically",
+      "correct_data": "Go back and correct",
+      "info": "Please choose whether cashbacks should be auto-redeemed automatically for utmost convenience. Please accept the cashback terms and conditions.",
+      "policy_agreement": "I accept the partner <0>Terms of Use</0> and <1>Privacy Policy</1> for cashback payments",
+      "post_button": "Continue",
+      "post_info": "We will now redirect you to the dashboard where you can view and manage your banks, trades, cashbacks and more. Please connect your broker first in menu Add Bank Connection, so that your trades can be analyzed and cashbacks can be generated automatically. Alternatively you can upload your trade settlement statements for selected brokers in the Documents menu."
+    },
+    "steps": {
+      "first_step": "Choose your account",
+      "second_step": "Add personal data",
+      "third_step": "Accept cashback terms"
+    }
+  },
+  "overview": {
+    "kpi-cards": {
+      "costs": "Expenses",
+      "income": "Income",
+      "next_month": "Next Month",
+      "liquidity": {
+        "subtitle": "End of next month",
+        "title": "Liquidity (current)",
+        "no_data_label": "No liquidity data available yet. Please connect to a bank account in menu Add bank connection."
+      },
+      "in": "in",
+      "title": "Key indicators",
+      "description": "Manage the display of KPI cards in the Income & Expenses menu. There you can also add more KPI cards.",
+      "no_data_label": "No KPI data available yet. Please connect to a bank account in menu Add bank connection."
+    },
+    "general": {
+      "liquidity_chart": {
+        "end_date": "End date",
+        "hint": {
+          "weekly_value": "Balance",
+          "value": "Balance"
+        },
+        "no_data": "No liquidity data available yet. Please connect to a bank account in menu Add bank connection.",
+        "start_date": "Start date",
+        "title": "Liquidity overview and projection"
+      },
+      "status-bar": {
+        "new-user-welcome": {
+          "title": "Welcome to your financial radar!",
+          "description": "We offer you a quick and comprehensive personal financial check. You also receive a liquidity forecast for the next months and many other key figures and analysis for your personal financials."
+        },
+        "no-connection": {
+          "title": "Connect a bank account to get started!",
+          "description": "Connect your bank account in the <0>Add Bank Connection</0> menu. We derive the financial check and the liquidity forecasts from your bank bookings."
+        },
+        "need-account-selection": {
+          "title": "Configuration of account visibility advised",
+          "description": "Are all connected accounts relevant for the application? Please configure the visibility of your accounts in the Bank accounts menu."
+        },
+        "need-resync": {
+          "title": "Re-synchronization of bank account necessary",
+          "description": "Synchronization of one or more of your bank accounts have expired: {{accounts}}. Please re-sync your bank account in the Bank Accounts menu."
+        }
+      }
+    },
+    "sme": {
+      "hints": {
+        "table": {
+          "columns": {
+            "date": "Date",
+            "topic": "Topic"
+          }
+        },
+        "title": "Hints"
+      },
+      "liquidity_chart": {
+        "end_date": "End date",
+        "hint": {
+          "weekly_value": "Balance",
+          "value": "Balance"
+        },
+        "no_data": "No liquidity data available yet. Please connect to a bank account in menu Add bank connection.",
+        "start_date": "Start date",
+        "title": "Liquidity"
+      },
+      "signals": {
+        "table": {
+          "columns": {
+            "category": "Industry",
+            "date": "Date",
+            "partner": "Partner",
+            "schedule": "Schedule",
+            "signal": "Signal"
+          },
+          "no_data":"No data available"
+        },
+        "title": "Action items"
+      },
+      "status-bar": {
+        "new-user-welcome": {
+          "title": "Welcome to your financial radar!",
+          "description": "We offer you a quick and comprehensive financial check of your company. You also receive a liquidity forecast for the next months and many other key figures and analysis for company planning and controlling. And the best: Forget about any complicated accounting speak."
+        },
+        "no-connection": {
+          "title": "Connect a bank account to get started!",
+          "description": "Connect your business bank account in the <0>Add Bank Connection</0> menu. We derive the financial check and the liquidity forecasts from your bank bookings."
+        },
+        "need-account-selection": {
+          "title": "Configuration of account visibility advised",
+          "description": "Are all connected accounts relevant for the application? Please configure the visibility of your accounts in the Bank accounts menu."
+        },
+        "need-resync": {
+          "title": "Re-synchronization of bank account necessary",
+          "description": "Synchronization of one or more of your bank accounts have expired: {{accounts}}. Please re-sync your bank account in the Bank Accounts menu."
+        }
+      }
+    },
+    "trader": {
+      "table": {
+        "columns": {
+          "total_order_volume": "Total order volume",
+          "trades": "Trades",
+          "wkn": "Your Top HVB WKNs"
+        },
+        "no_data":"No data available"
+      },
+      "status-bar": {
+        "new-user-welcome": {
+          "title": "Welcome to Cashback Trading!",
+          "description": "We are the place to go for Trading Rewards, no matter which bank you trade with. Trade for € 0, receive order fee rebates and much more. Get excited and keep checking back here often to see what is new, since some promotions are limited in time."
+        },
+        "no-connection": {
+          "title": "Connect a bank account to get started!",
+          "description": "Connect your bank account in the <0>Add Bank Connection</0> menu. This is necessary to verify your trades. Cashbacks will be recognized automatically after that. For Smartbroker and Hello-Bank Austria please upload your trade settlement statements in the <1>Documents</1> menu."
+        },
+        "need-account-selection": {
+          "title": "Configuration of account visibility advised",
+          "description": "Are all connected accounts relevant for the application? Please configure the visibility of your accounts in the Bank accounts menu."
+        },
+        "need-resync": {
+          "title": "Re-synchronization of bank account necessary",
+          "description": "Synchronization of one or more of your bank accounts have expired: {{accounts}}. Please re-sync your bank account in the Bank Accounts menu."
+        },
+        "cashbacks": {
+          "title": "Cashback status",
+          "description": "Until now {{cashback_number}} cashbacks, amounting to {{cashback_amount}}."
+        }
+      },
+      "sync_status": "Account status",
+      "sync_status_error": "Needs resync",
+      "sync_status_no_accounts": "No accounts connected",
+      "sync_status_success": "Sync ok"
+    }
+  },
+  "partner": {
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms Of Use"
+  },
+  "partners": {
+    "incorrect_birthdate": "The partner requires you to be at least 18 years old."
+  },
+  "password_strength": {
+    "too_short": "Too short",
+    "weak": "Weak",
+    "okay": "Okay",
+    "strong": "Strong",
+    "stronger": "Stronger"
+  },
+  "periodicity": {
+    "annually": "Annually",
+    "bi_annually": "Bi-Annually",
+    "bi_weekly": "Bi-Weekly",
+    "daily": "Daily",
+    "monthly": "Monthly",
+    "other": "Other",
+    "quarterly": "Quarterly",
+    "twice_per_week": "Twice per week",
+    "twice_per_year": "Twice per year",
+    "weekly": "Weekly"
+  },
+  "profits_and_loss": {
+    "costs": "Expenses",
+    "end_date": "End date",
+    "general": {
+      "title": "Income & expenses"
+    },
+    "no_data": "No income & expenses data available yet. Please connect to a bank account in menu Add bank connection.",
+    "revenues": "Income",
+    "sme": {
+      "title": "Income & expenses"
+    },
+    "start_date":"Start date",
+    "table": {
+      "columns": {
+        "type": "Type",
+        "toggle": "KPI Card"
+      },
+      "no_data":"No data available"
+    }
+  },
+  "register": {
+    "email_already_exists": "Email alreay exist",
+    "button_text": "Register now",
+    "terms_of_use": "I accept the <0>Terms of Use</0> and <1>Privacy Policy</1>."
+  },
+  "reports": {
+    "title": "Preview of cashback report",
+    "description": "The cashback report generates a printable overview of the cashbacks for trades in a given period. You can take this overview for your records or submit it. Select start and end of the trading value dates to be taken into account, and then click on Continue.",
+    "continue": "Continue",
+    "start_date": "Start date",
+    "end_date": "End date",
+    "go_back": "Go back",
+    "name_and_address": "For {{firstName}} {{lastName}}, {{street}} {{houseNo}}, {{zip}} {{city}}",
+    "name_and_address_with_country": "For {{firstName}} {{lastName}}, {{street}} {{houseNo}}, {{zip}} {{city}}, {{country}}",
+    "print": "Print",
+    "preview_title": "Cashback report",
+    "preview_description": "Below you see a preview of the cashback report. Click the Print button to print or export the report. Click the Back button to review and change report dates.",
+    "reporting_period": "Report period: {{start}} to {{end}}",
+    "total_cashback_amount": "Total amount of cashbacks: {{amount}}",
+    "cash_back_in_details": "Detailed list of cashbacks:",
+    "table": {
+      "payment_date": "Cashback payment date",
+      "trading_date": "Trading value date",
+      "context": "ISIN/WKN",
+      "trade_amount": "Trade amount",
+      "cashback_amount": "Cashback amount"
+    },
+    "select_date": "Please select start and end dates to continue.",
+    "errors": {
+      "wrong_period": "End date must not be earlier than start date.",
+      "no_data": "There are no cashbacks in that period of time."
+    }
+  },
+  "security": {
+    "amount":"Amount",
+    "isin": "ISIN",
+    "name": "Name",
+    "quantity": "Quantity",
+    "price": "Price per unit",
+    "wkn": "WKN"
+  },
+  "securities": {
+    "table": {
+      "no_data": "No securities available. To see securities, please add securities in the bank accounts overview"
+    }
+  },
+  "settings": {
+    "account": "Account",
+    "cashbacks_auto_redemption": "Auto redeem cashbacks",
+    "delete_account": "Delete account",
+    "delete_account_question": "Are you sure that you want to delete this account?",
+    "email_notifications": "Receive notification emails",
+    "personal_data": "Personal data"
+  },
+  "subscription": {
+    "category": "Category",
+    "first_payment": "First payment",
+    "industry": "Industry",
+    "last_payment": "Latest payment",
+    "name": "Name",
+    "number_of_transactions": "Transactions",
+    "period": "Period",
+    "total_amount": "Total amount" 
+  },
+  "tables": {
+    "no_data": "No data available"
+  },
+  "time": {
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "transaction": {
+    "account_name": "Account",
+    "amount": "Amount",
+    "category": "Category",
+    "category_path": "Category path",
+    "counterparty_iban": "Counterparty IBAN",
+    "counterparty_name": "Counterparty as in booking",
+    "detected_counterparty_name": "Counterparty",
+    "isin_wkn": "ISIN/WKN",
+    "mandate_reference": "Mandate reference",
+    "purpose": "Purpose of payment",
+    "value_date": "Date"
+  },
+  "transaction-card": {
+    "discount": "{{amount}} discount"
+  },
+  "transactions": {
+    "future_transactions_table": {
+      "no_data":"No data available",
+      "title": "Next bookings"
+    },
+    "past_transactions_table": {
+      "no_data":"No data available",
+      "title": "Past bookings"
+    }
+  },
+  "update_bank_connection": {
+    "up_to_date": "The synchronisation is up to date. No new synchronization was triggered",
+    "423_error": "Bank connection update not possible since background synchronisation is running at present"
+  },
+  "validation": {
+    "date": {
+      "invalid_format": "Incorrect date",
+      "past_today": "The birth date must be a date in the past."
+    },
+    "email": {
+      "confirmation": "Emails do not match"
+    },
+    "pattern": "Incorrect format",
+    "required": {
+      "checkbox": "This has to be checked",
+      "general": "This field is required"
+    },
+    "password": {
+      "confirmation": "Passwords do not match",
+      "score": "The password is too weak"
+    }
+  },
+  "voucher": {
+    "code": "Code",
+    "discount_amount": "Discount",
+    "shop_name": "Partner",
+    "title": "Offer"
+  },
+  "regios": {
+    "title": "Welcome to REGIOS",
+    "sub_title": "Become a regional hero",
+    "card": {
+      "title": "Connect a bank account so that we can analyze your expenses",
+      "click_here": "Click here to start"
+    },
+    "regional_affinity": "Regional affinity",
+    "expenses_last": "Expenses of last 30 days",
+    "your_last_expenses": "Your Last expenses"
+  },
+  "vouchers": {
+    "redeem_voucher_dialog": {
+      "copy_and_redeem": "Copy and redeem voucher code",
+      "copy_code": "Copy voucher code",
+      "title": "Redeem voucher",
+      "voucher_code": "Voucher code",
+      "voucher_code_help": "(Copy code and paste it on partner website)"
+    },
+    "table": {
+      "no_data":"No data available"
+    }
+  }
+}

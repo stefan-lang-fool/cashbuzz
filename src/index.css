@@ -1,0 +1,70 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Lato";
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 100;
+  font-style: normal;
+  src: url("~@/assets/fonts/Lato/eot/Lato-Thin.eot");
+  src: url("~@/assets/fonts/Lato/woff2/Lato-Thin.woff2") format("woff2");
+  src: url("~@/assets/fonts/Lato/woff/Lato-Thin.woff") format("woff");
+  src: url("~@/assets/fonts/Lato/trueType/Lato-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 300;
+  font-style: normal;
+  src: url("~@/assets/fonts/Lato/eot/Lato-Light.eot");
+  src: url("~@/assets/fonts/Lato/woff2/Lato-Light.woff2") format("woff2");
+  src: url("~@/assets/fonts/Lato/woff/Lato-Light.woff") format("woff");
+  src: url("~@/assets/fonts/Lato/trueType/Lato-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  src: url("~@/assets/fonts/Lato/eot/Lato-Regular.eot");
+  src: url("~@/assets/fonts/Lato/woff2/Lato-Regular.woff2") format("woff2");
+  src: url("~@/assets/fonts/Lato/woff/Lato-Regular.woff") format("woff");
+  src: url("~@/assets/fonts/Lato/trueType/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 500;
+  font-style: normal;
+  src: url("~@/assets/fonts/Lato/eot/Lato-Medium.eot");
+  src: url("~@/assets/fonts/Lato/woff2/Lato-Medium.woff2") format("woff2");
+  src: url("~@/assets/fonts/Lato/woff/Lato-Medium.woff") format("woff");
+  src: url("~@/assets/fonts/Lato/trueType/Lato-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  font-style: normal;
+  src: url("~@/assets/fonts/Lato/eot/Lato-Bold.eot");
+  src: url("~@/assets/fonts/Lato/woff2/Lato-Bold.woff2") format("woff2");
+  src: url("~@/assets/fonts/Lato/woff/Lato-Bold.woff") format("woff");
+  src: url("~@/assets/fonts/Lato/trueType/Lato-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 900;
+  font-style: normal;
+  src: url("~@/assets/fonts/Lato/eot/Lato-Black.eot");
+  src: url("~@/assets/fonts/Lato/woff2/Lato-Black.woff2") format("woff2");
+  src: url("~@/assets/fonts/Lato/woff/Lato-Black.woff") format("woff");
+  src: url("~@/assets/fonts/Lato/trueType/Lato-Black.ttf") format("truetype");
+}

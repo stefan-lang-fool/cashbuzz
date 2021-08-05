@@ -1,0 +1,30 @@
+
+.slick-slider {
+  display: grid;
+}
+
+.slick-slider .slick-dots li.slick-active button:before {
+  color: #FFFFFF;
+}
+
+.slick-slider .slick-dots li {
+  height: unset;
+  width: unset;
+  padding: 0;
+  margin: 0 8px;
+}
+
+.slick-slider .slick-dots li .custom-dot {
+  width: 11px;
+  height: 11px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.slick-slider .slick-dots li.slick-active .custom-dot {
+  background-color: #FFFFFF;
+}
+
+
+

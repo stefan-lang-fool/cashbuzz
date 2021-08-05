@@ -1,0 +1,909 @@
+{
+  "account": {
+    "bic": "BIC: ",
+    "iban": "IBAN",
+    "interface": {
+      "interface": "Verbindungstyp",
+      "interface_status": "finAPI-Status",
+      "last_successful_update": "Letzter erfolgreicher Abgleich",
+      "last_update_attempt": "Letzter Abgleichversuch"
+    }
+  },
+  "account_status": {
+    "0": "Alle Ansichten in der Anwendung sind aktuell.",
+    "1": "Verträge, Verpflichtungen und Projektionen werden berechnet. Ansichten sind noch nicht aktuell.",
+    "2": "Daten werden kategorisiert. Ansichten sind noch nicht aktuell.",
+    "3": "Daten werden abgeglichen. Ansichten sind noch nicht aktuell."
+  },
+  "add_new_bank_connection": {
+    "title": "Top Banken",
+    "banks": {
+      "consorsbank": "Consorsbank",
+      "comdirect": "Comdirect",
+      "commerzbank": "Commerzbank",
+      "deutche-bank": "Deutsche Bank",
+      "dkb": "DKB",
+      "flatex": "Flatex",
+      "hello_bank": {
+        "content": "Trades für die Hello-Bank Österreich lesen wir nicht über eine Bankverknüpfung aus. Stattdessen laden Sie die Wertpapierabrechnungen im Menü Dokumente hoch. Wenn Sie auf Weiter klicken, gelangen Sie direkt in dieses Menü.",
+        "name": "Hello-Bank"
+      },
+      "hypovereinsbank": "HypoVereinsbank",
+      "ing": "ING",
+      "onvista": "Onvista",
+      "other-volksbanken": "Andere Volksbanken",
+      "postbank": "Postbank",
+      "s-broker": "S-Broker",
+      "smartbroker": {
+        "content": "Trades für den Smartbroker lesen wir nicht über eine Bankverknüpfung aus. Stattdessen laden Sie die Wertpapierabrechnungen im Menü Dokumente hoch. Wenn Sie auf Weiter klicken, gelangen Sie direkt in dieses Menü.",
+        "name": "Smartbroker"
+      },
+      "sparda-banken": "Sparda-Banken",
+      "sparkassen": "Sparkassen",
+      "volksbank-eg": "Volksbank eG, Seesen",
+      "volksbanken": "Volksbanken"
+    },
+    "categorization_status": {
+      "0": "Alle Ansichten in der Anwendung sind jetzt aktuell. Sie können jetzt zu einem der anderen Menüs gehen.",
+      "1": "Daten werden aufbereitet. Bitte haben Sie etwas Geduld und verlassen dieses Menü noch nicht.",
+      "2": "Bankbuchungen werden analysiert. Bitte haben Sie etwas Geduld und verlassen dieses Menü noch nicht.",
+      "3": "Bankbuchungen werden eingelesen. Bitte haben Sie etwas Geduld und verlassen dieses Menü noch nicht."
+    },
+    "categorization_status_guided_tour": {
+      "0": "Die Daten sind jetzt komplett eingelesen und analysiert.",
+      "1": "Daten werden aufbereitet. Bitte haben Sie noch etwas Geduld.",
+      "2": "Bankbuchungen werden analysiert. Bitte haben Sie noch etwas Geduld.",
+      "3": "Bankbuchungen werden eingelesen. Bitte haben Sie noch etwas Geduld."
+    },
+    "connection_failure": "Wir konnten Ihr Bankkonto mit dieser Zugriffsmethode nicht verknüpfen",
+    "fin_api_error": "Die Bank hat folgenden Fehler gemeldet: {{message}}",
+    "info": {
+      "general": "Verknüpfen Sie jetzt Ihr Bankkonto. Bitte denken Sie daran, dass Ihre Bank während der Verknüpfung einen zweiten Faktor verlangt, und halten Sie diesen bereit. Seit der Umstellung auf PSD2 sind manche Bankschnttstellen leider nicht immer stabil. Sollte etwas nicht funktionieren, zögern Sie nicht, uns unter der Email service@cashbuzz.io eine Nachricht zu senden.",
+      "sme": "Verknüpfen Sie jetzt Ihr Bankkonto. Bitte denken Sie daran, dass Ihre Bank während der Verknüpfung einen zweiten Faktor verlangt, und halten Sie diesen bereit. Seit der Umstellung auf PSD2 sind manche Bankschnttstellen leider nicht immer stabil. Sollte etwas nicht funktionieren, zögern Sie nicht, uns unter der Email service@cashbuzz.io eine Nachricht zu senden.",
+      "trader": "Verknüpfen Sie jetzt Ihr Bankkonto, um Cashbacks zu erhalten. Wir verifizieren auf diese Art und Weise Ihre Trades und andere cashback-fähigen Aktivitäten. Bitte denken Sie daran, dass Ihre Bank während der Verknüpfung einen zweiten Faktor verlangt, und halten Sie diesen bereit. Seit der Umstellung auf PSD2 sind manche Bankschnttstellen leider nicht immer stabil. Sollte etwas nicht funktionieren, zögern Sie nicht, uns unter der Email service@cashbuzz.io eine Nachricht zu senden."
+    },
+    "interface_selection": {
+      "AUTOMATIC": "Standard",
+      "FINTS_SERVER": "FinTS",
+      "WEB_SCRAPER": "Web Scraping",
+      "XS2A": "XS2A"
+    },
+    "search": {
+      "title": "Oder nach Banken suchen",
+      "label": "Oder nach Banken suchen",
+      "placeholder": "Name, BIC oder BLZ eingeben (min. 3 Zeichen)"
+    },
+    "steps": {
+      "first_step": "Bank auswählen",
+      "second_step": "Konto verknüpfen",
+      "third_step": "Daten abholen"
+    },
+    "table": {
+      "columns": {
+        "actions": "Aktionen",
+        "advanced_options": "Optionen für Kontozugriff",
+        "bic": "BIC",
+        "blz": "BLZ",
+        "name": "Bank"
+      },
+      "no_data": "Keine Daten vorhanden"
+    }
+  },
+  "affinities": {
+    "household": {
+      "charts": {
+        "expenses": {
+          "hint_description": "Maus über Ringsegmente bewegen oder darauf klicken.",
+          "title": "Ausgaben"
+        },
+        "income": {
+          "hint_description": "Maus über Ringsegmente bewegen oder darauf klicken.",
+          "title": "Einnahmen"
+        }
+      },
+      "end_date":"Enddatum",
+      "start_date": "Startdatum",
+      "title": "Haushaltssegmentierung"
+    },
+    "table": {
+      "columns": {
+        "rank": "Position",
+        "category": "Kategorie",
+        "value": "Affinitätswert"
+      }
+    },
+    "title": "Affinitäten gegenüber Vergleichsgruppe",
+    "no_data": "Noch keine Daten vorhanden. Affinitäten werden regelmäßig berechnet, jedoch nicht in Echtzeit. Bitte schauen Sie später noch einmal vorbei."
+  },
+  "attributes": {
+    "table": {
+      "columns": {
+        "date": "Datum",
+        "property": "Merkmal",
+        "property_group": "Merkmalsgruppe",
+        "section": "Bereich",
+        "value": "Wert"
+      }
+    }
+  },
+  "auth": {
+    "email": "Emailadresse",
+    "email_validation_code": "Validierungscode",
+    "email_validation_info": "Wir haben Ihnen einen Validierungscode per Email gesendet. Bitte geben Sie diesen Code hier ein.",
+    "forgot_password": "Passwort vergessen?",
+    "forgot_password_code": "Code",
+    "login": "Anmelden",
+    "password": "Passwort",
+    "password_confirmation": "Passwort noch einmal eingeben",
+    "register": "Registrieren",
+    "tos_acceptance_info": "Wir haben unsere AGB und Datenschutzbestimmungen aktualisiert. Bitte akzeptieren Sie diese, um fortzufahren."
+  },
+  "bank_accounts": {
+    "add_securities": "Wertpapiere hinzufügen",
+    "delete_bank_account": "Bankkonto entfernen",
+    "delete_bank_account_question": "Dieses Bankkonto wirklich entfernen?",
+    "missing_visibility": " Sichtbarkeit von Konten ist im Menü Bankkonten noch nicht vollständig konfiguriert.",
+    "resync_account": "Konto neu abgleichen",
+    "table": {
+      "columns": {
+        "account_name": "Konto",
+        "actions": "Aktionen",
+        "bank_name": "Bank",
+        "status": "Status",
+        "visibility": "Sichtbarkeit"
+      },
+      "no_data": "Keine Daten vorhanden",
+      "selection_status": {
+        "no": "Nein",
+        "null": "Unbestätigt",
+        "yes": "Ja"
+      },
+      "sync_status": {
+        "false": "Bitte neu abgleichen",
+        "true": "Aktuell"
+      }
+    }
+  },
+  "cashback": {
+    "expiration_date": "Ablaufdatum",
+    "partner_name": "Partner",
+    "reward": "Betrag",
+    "status": "Status",
+    "status_codes": {
+      "approved": "Genehmigt",
+      "claimed": "Eingelöst",
+      "inPayout": "Zahlung gestartet",
+      "limitExceeded": "Limit überschritten",
+      "new": "Neuer Cashback",
+      "paymentScheduled": "Zahlung läuft",
+      "payoutError": "Zahlungsfehler",
+      "redeemed": "Erhalten",
+      "rejectedByCashbuzz": "Verweigert",
+      "rejectedByPartner": "Von Partner verweigert",
+      "unknown": "Unbekannter Status"
+    },
+    "value_date": "Transaktionsdatum"
+  },
+  "cashbacks": {
+    "missing_kyc_light": "Es gibt ein Problem mit Ihren Daten. Sie müssen mindestens 16 Jahre alt sein und eine gültige Wohnadresse haben.",
+    "missing_requirements": "Voraussetzungen sind nicht erfüllt",
+    "table": {
+      "no_data":"Keine Daten vorhanden"
+    },
+    "update_partner_dialog": {
+      "title": "Partnerbedingungen"
+    },
+    "update_tospp_dialog": {
+      "title": "Partnerbedingungen"
+    }
+  },
+  "change_email": {
+    "confirm_email": "Neue Emailadresse bestätigen",
+    "dialog_title": "Emailadresse ändern",
+    "first_step": "Neue Emailadresse eingeben"
+  },
+  "change_password": {
+    "confirm_password": "Neues Passwort bestätigen",
+    "dialog_title": "Passwort ändern",
+    "new_password": "Neues Passwort",
+    "old_password": "Altes Passwort"
+  },
+  "code": {
+    "code_already_used": "Sie haben diesen Code schon genutzt",
+    "code_not_found": "Dieser Code ist nicht gültig",
+    "enter_code": "Code eingeben",
+    "enter_code_info": "Von Zeit zu Zeit erhalten Sie möglicherweise Codes von uns. Oder Sie haben möglicherweise einen Code als Dankeschön für ihre Registrierung bekommen. Diese Codes können Sie hier eintragen.",
+    "enter_code_placeholder": "Code",
+    "submitted": "Code erfolgreich abgesendet",
+    "your_code": "Ihr persönlicher Code",
+    "your_code_info": "Anbei ist Ihr persönlicher Code. Diesen können Sie für spezielle Aktionen nutzen, die von Zeit zu Zeit verfügbar sind. Für diese Aktionen gelten spezielle Sonderbedingungen."
+  },
+  "common": {
+    "actions": "Aktionen",
+    "amount": "Betrag",
+    "back": "Zurück",
+    "bool": {
+      "false": "Nein",
+      "true": "Ja"
+    },
+    "cancel": "Abbrechen",
+    "cashbacks": "Cashbacks",
+    "change": "Ändern",
+    "confirm": "Bestätigen",
+    "connect": "Verknüpfen",
+    "continue": "Weiter",
+    "delete": "Löschen",
+    "details": "Einzelheiten",
+    "download": "Herunterladen",
+    "edit": "Bearbeiten",
+    "english": "Englisch",
+    "german": "Deutsch",
+    "internal_error": "Ein interner Fehler ist aufgetreten",
+    "language": "Sprache",
+    "not_available": "N/A",
+    "other": "Andere",
+    "proceed": "Weiter",
+    "redeem": "Einlösen",
+    "resync": "Neu abgleichen",
+    "return": "Zurück",
+    "return_to": "Zurück zu {{0}}",
+    "save": "Speichern",
+    "select": "Auswählen",
+    "send": "Hochladen",
+    "type": "Typ",
+    "view": "Ansehen"
+  },
+  "contract": {
+    "category": "Kategorie",
+    "contract_ident": "Vertragsnummer",
+    "customer_ident": "Kundennummer",
+    "first_payment": "Erste Zahlung",
+    "last_payment": "Neueste Zahlung",
+    "name": "Partner",
+    "payments": "Zahlungen",
+    "period": "Zahlweise",
+    "regular_amount": "Regelbetrag",
+    "total_amount": "Gesamtbetrag"
+  },
+  "contracts": {
+    "details_view": {
+      "back_button": "Zurück",
+      "table": {
+        "no_data":"Keine Daten vorhanden"
+      },
+      "title": "Zugehörige Buchungen"
+    },
+    "list_view": {
+      "table": {
+        "bookings_button": "Buchungen",
+        "no_available_details": "Keine Vertragsdetails verfügbar",
+        "no_data":"Keine Daten vorhanden"
+      },
+      "title": "Verträge"
+    }
+  },
+  "document": {
+    "bank": "Bank",
+    "cashback": "Cashbacks",
+    "file_name": "Dateiname",
+    "file_status": "Status",
+    "status": {
+      "checked_cashback": "Auf Cashback geprüft",
+      "rejected": "Dokument abgelehnt",
+      "uploaded": "Dokument ungeprüft",
+      "verified": "Wartet auf Cashback-Prüfung"
+    },
+    "upload_ts": "Hochgeladen am"
+  },
+  "documents": {
+    "delete_document": "Dokument löschen",
+    "delete_document_question": "Wollen Sie das Dokument wirklich löschen?",
+    "sections": {
+      "list": {
+        "no_data": "Keine Daten vorhanden",
+        "subTitle": "Hochgeladene Dokumente werden automatisch analysiert. Bei Wertpapierabrechnungen des Smartbrokers oder der Hello-Bank Österreich werden die entsprechenden Trades auf Cashbacks geprüft. Die Prüfung erfolgt mehrmals am Tag, allerdings nicht in Echtzeit. Die Cashbacks erscheinen dann im Cashback-Menü. Achtung: Für den Safari-Browser funktionieren derzeit einige Aktionen noch nicht richtig; wir arbeiten daran.",
+        "title": "Hochgeladene Dokumente"
+      },
+      "upload": {
+        "subTitle": "Ziehen Sie Ihre Dokumente einfach in den markierten Bereich oder klicken Sie in den Bereich, um Dokumente auszuwählen und hochzuladen. Momentan können Sie ausschließlich Wertpapierabrechnungen von Smartbroker und Hello-Bank Österreich im PDF-Format hochladen, um Cashbacks für Trades bei diesen Banken zu erhalten. Für alle anderen Banken benutzen Sie bitte weiterhin die Möglichkeit, direkt ein Bankkonto zu verknüpfen.",
+        "text": "Dokumente hierhin ziehen (bis zu 50 gleichzeitig) oder in den Bereich klicken",
+        "title": "Dokumente hochladen"
+      }
+    }
+  },
+  "edit_profile": {
+    "address_city": "Stadt",
+    "address_country": "Land",
+    "address_house_number": "Hausnummer",
+    "address_street": "Straße",
+    "address_zip_code": "PLZ",
+    "birthday": "Geburtsdatum",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "invalid_address": "Dies ist keine gültige Adresse. Bitte beheben, dann weiter",
+    "type_error": "Wir haben einen Tippfehler in der Adresse behoben. Bitte überprüfen, dann weiter"
+  },
+  "email_confirmation": {
+    "error": "Wir können Ihre Emailadresse derzeit nicht überprüfen",
+    "invalid_code": "Der Code ist nicht korrekt",
+    "resend_code_link": "Noch einmal senden",
+    "resend_code_info": "Sie haben keinen Code erhalten, oder er ist schon abgelaufen?",
+    "resend_code_success": "Wir haben Ihnen einen neuen Validierungscode gesendet"
+  },
+  "expenses": {
+    "bookings_button": "Buchungen",
+    "details_view": {
+      "back_button": "Zurück",
+      "table": {
+        "no_data":"Keine Daten vorhanden"
+      },
+      "title": "Zugehörige Buchungen"
+    },
+    "evaluation_values": {
+      "black": "Sehr großes Risiko",
+      "green": "Geringes Risiko",
+      "red": "Großes Risiko",
+      "white": "Keine Einschätzung",
+      "yellow": "Mittleres Risiko"
+    },
+    "general": {
+      "charts": {
+        "expenses_by_category": "Nach Kategorien",
+        "expenses_by_evaluation": "Einschätzung Anbieter",
+        "expenses_by_expenses_type": "Nach Ausgabentyp",
+        "expenses_by_source": "Nach Anbieter",
+        "hint_description": "Maus über Ringsegmente bewegen oder darauf klicken."
+      },
+      "table": {
+        "no_data":"Keine Daten vorhanden"
+      }
+    },
+    "sme": {
+      "charts": {
+        "expenses_by_category": "Nach Kategorien",
+        "expenses_by_evaluation": "Einschätzung Lieferanten",
+        "expenses_by_expenses_type": "Nach Ausgabentyp",
+        "expenses_by_source": "Nach Branchen",
+        "hint_description": "Maus über Ringsegmente bewegen oder darauf klicken."
+      },
+      "table": {
+        "no_data":"Keine Daten vorhanden"
+      }
+    }
+  },
+  "forgot_password": {
+    "first_step": "Email zum Rücksetzen des Passworts senden",
+    "second_step": "Rücksetzcode für das Passwort eingeben",
+    "third_step": "Neues Passwort eingeben"
+  },
+  "income": {
+    "bookings_button": "Buchungen",
+    "details_view": {
+      "back_button": "Zurück",
+      "table": {
+        "no_data":"Keine Daten vorhanden"
+      },
+      "title": "Zugehörige Buchungen"
+    },
+    "evaluation_values": {
+      "black": "Sehr großes Risiko",
+      "green": "Geringes Risiko",
+      "red": "Großes Risiko",
+      "white": "Keine Einschätzung",
+      "yellow": "Mittleres Risiko"
+    },
+    "general": {
+      "charts": {
+        "income_by_category": "Nach Kategorien",
+        "income_by_evaluation": "Einschätzung Einnahmequellen",
+        "income_by_income_type": "Nach Einnahmentyp",
+        "income_by_source": "Nach Quellen",
+        "hint_description": "Maus über Ringsegmente bewegen oder darauf klicken."
+      },
+      "table": {
+        "no_data":"Keine Daten vorhanden"
+      }
+    },
+    "sme": {
+      "charts": {
+        "income_by_category": "Nach Kategorien",
+        "income_by_evaluation": "Einschätzung Kunden",
+        "income_by_income_type": "Nach Einnahmentyp",
+        "income_by_source": "Nach Branchen",
+        "hint_description": "Maus über Ringsegmente bewegen oder darauf klicken."
+      },
+      "table": {
+        "no_data":"Keine Daten vorhanden"
+      }
+    }
+  },
+  "invoices": {
+    "change_transaction": "Ändern",
+    "delete_invoice": "Rechnung löschen",
+    "delete_invoice_question": "Wollen Sie Rechnung wirklich löschen?",
+    "due_date_error": "Das Fälligkeitsdatum darf nicht vor dem Rechnungsdatum liegen",
+    "form": {
+      "add_new_invoice": "Neue Rechnung",
+      "customer_section": "Rechnungsempfänger",
+      "customer_section_remarks": "Geben Sie den Rechnungsempfänger ein. Das System macht ab einer Namenslänge von vier Zeichen Vorschläge. Sie können diese auswählen und ggf. anpassen oder auch völlig neue Einträge erstellen.",
+      "edit_invoice": "Rechnung bearbeiten",
+      "invoice_section_remarks": "Geben Sie bite die Rechnungsdaten so ein, wie sie auf der Rechnung an Ihren Kunden aufgeführt sind. Das ist besonders für die Rechnungsnummer wichtig, damit wir automatisch ermitteln können, wann der Geldeingang bei Ihrer Bank gebucht wird.",
+      "fields": {
+        "amount": "Betrag",
+        "code_city": "PLZ & Stadt",
+        "country": "Land",
+        "customer_number": "Kundennr.",
+        "due_date": "Fälligkeit",
+        "invoice_date": "Rechnungsdatum",
+        "invoice_number": "Rechnungs-Nr.",
+        "name": "Empfänger",
+        "street_address": "Addresse"
+      },
+      "go_back": "Zurück",
+      "save": "Speichern"
+    },
+    "remove_transaction": "Löschen",
+    "select_transaction": "Zuordnen",
+    "table": {
+      "columns": {
+        "actions": "Aktionen",
+        "amount": "Betrag",
+        "booked": "Gebucht",
+        "customer": "Empfänger",
+        "due_date": "Fälligkeit",
+        "invoice_date": "Rechnungsdatum",
+        "invoice_number": "Rechnungs-Nr.",
+        "paid_date": "Zahlungsdatum"
+      },
+      "delete": "Löschen",
+      "edit": "Ändern",
+      "no": "Nein",
+      "no_data": "Keine Daten vorhanden",
+      "yes": "Ja"
+    },
+    "transaction_list": {
+      "back_button": "Zurück",
+      "description": "Bitte wählen Sie die Bankbuchung aus, die den Zahlungseingang der Rechnung darstellt.",
+      "title": "Bankbuchung zur Rechnung zuordnen"
+    },
+    "transaction_section": {
+      "empty": {
+        "button": "Zuordnen",
+        "description": "Hier können Sie eine Bankbuchung zu einer Rechnung zuordnen und damit auch den Zahlungseingang festlegen.",
+        "title": "Bankbuchung zur Rechnung zuordnen"
+      },
+
+      "selected": {
+        "description": "Die nachfolgende Bankbuchung wurde dieser Rechnung zugeordnet. Sie können diese Zuordnung wieder ändern oder auch löschen.",
+        "title": "Bankbuchung zur Rechnung"
+      }
+    },
+    "invalid_address": "Dies ist keine gültige Adresse. Bitte beheben, dann weiter",
+    "type_error": "Wir haben einen Tippfehler in der Adresse behoben. Bitte überprüfen, dann weiter"
+  },
+  "category_tree": {
+    "indy": "Industries",
+    "subj": "Subject",
+    "actn": "Actions",
+    "ggrp": "Group",
+    "gcix": "ConsumerIX",
+    "gstd": "Standard",
+    "gbix": "BusinessIX"
+  },
+  "login": {
+    "invalid_credentials": "Die Anmeldedaten sind nicht korrekt",
+    "continue_to_login": "Weiter zur Anmeldung"
+  },
+  "login_slider": {
+    "first_slide": {
+      "description": "Wir erstatten die Ordergebühr. Bis zu 50 € pro Trade bei den meisten Brokern und Banken und Aufträgen bis jeweils 15.000 €",
+      "title": "HVB-Produkte für 0 € handeln"
+    },
+    "second_slide": {
+      "description": "Cashbacks gibt es für rund 4.000 Banken und Sparkassen. So können Sie sich unabhängig von Broker-Aktionen voll aufs Trading konzentrieren.",
+      "title": "Voller Fokus aufs Trading"
+    },
+    "third_slide": {
+      "description": "Starten Sie sofort durch und verbinden Sie einfach Ihr Trading-Konto. Cashbacks werden automatisch erkannt und ausgezahlt.",
+      "title": "In wenigen Schritten zum Ziel"
+    }
+  },
+  "menu": {
+    "general-accounts": "Bankkonten",
+    "general-affinities": "Segmentierung",
+    "general-attributes": "Merkmale",
+    "general-category-tree": "Kategoriebaum",
+    "regios-overview": "Regio's",
+    "general-connection": "Neue Bankverknüpfung",
+    "general-contact": "Kontakt",
+    "general-contracts": "Verträge",
+    "general-expenses": "Ausgaben",
+    "general-income": "Einnahmen",
+    "general-logout": "Abmelden",
+    "general-overview": "Übersicht",
+    "general-profile": "Profil & Einstellungen",
+    "general-profitloss": "Einnahmen & Ausgaben",
+    "general-transactions": "Buchungen",
+    "general-vouchers": "Gutscheine",
+    "trader-cashback": "Cashbacks",
+    "trader-connection": "Neue Bankverknüpfung",
+    "trader-documents": "Dokumente",
+    "trader-faq": "Häufige Fragen",
+    "trader-mgm": "Vorteilsaktionen",
+    "trader-overview": "Übersicht",
+    "trader-profile": "Profil & Einstellungen",
+    "trader-reports": "Cashback-Report",
+    "trader-securities": "Wertpapiere",
+    "trader-trades": "Trades",
+    "trader-transactions": "Buchungen",
+    "sme-connection": "Neue Bankverknüpfung",
+    "sme-contracts": "Verträge",
+    "sme-expenses": "Lieferanten",
+    "sme-faq": "Häufige Fragen",
+    "sme-income": "Kunden",
+    "sme-invoices": "Rechnungen",
+    "sme-overview": "Übersicht",
+    "sme-profile": "Profil & Einstellungen",
+    "sme-profitloss": "Einnahmen & Ausgaben",
+    "sme-transactions": "Buchungen",
+    "pocket-flowerchart-test": "Flower chart test",
+    "pocket-transactions": "Buchungen",
+    "credits": "Credits",
+    "imprint": "Impressum",
+    "terms_of_use": "Nutzungsbedingungen",
+    "privacy_policy": "Datenschutzbestimmungen"
+  },
+  "navigation": {
+    "dashboard": "Übersicht",
+    "login": "Anmelden"
+  },
+  "onboarding": {
+    "bank_connection": {
+      "info": "Verknüpfen Sie jetzt Ihr Bankkonto, um Cashbacks zu erhalten. Wir verifizieren auf diese Art und Weise Ihre Trades und andere cashback-fähigen Aktivitäten. Bitte denken Sie daran, dass Ihre Bank während der Verknüpfung einen zweiten Faktor verlangt, und halten Sie diesen bereit. Seit der Umstellung auf PSD2 sind manche Bankschnttstellen leider nicht immer stabil. Sollte etwas nicht funktionieren, zögern Sie nicht, uns unter der Email service@cashbuzz.io eine Nachricht zu senden."
+    },
+    "personal_data": {
+      "info": "Bitte geben Sie Ihren Namen, Ihr Geburtsdatum und Ihre Adresse an. Wir benötigen diese Angaben aus gesetzlichen Gründen, um Ihnen Cashbacks auszuschütten."
+    },
+    "partner_policy": {
+      "auto_redeem": "Cashbacks automatisch einlösen, um Zahlungen automatisch zu erhalten",
+      "correct_data": "Zurück und korrigieren",
+      "info": "Bitte wählen Sie, ob Sie Cashbacks automatisch einlösen wollen, und akzeptieren Sie die Cashback-Bedingungen.",
+      "policy_agreement": "Ich akzeptiere die Partner-<0>Nutzungsbedingungen</0> und <1>Datenschutzbestimmungen</1> für Cashback-Ausschüttungen",
+      "post_button": "Weiter",
+      "post_info": "Wir leiten Sie jetzt ins Cockpit weiter, in dem Sie Ihre Banken, Trades, Cashbacks und mehr einsehen und verwalten können. Bitte verknüpfen Sie dort als Erstes Ihren Broker im Menü Neue Bankverknüpfung, damit Ihre Trades analysiert und die Cashbacks dann automatisch erzeugt werden können. Alternativ können Sie für einige Broker auch Ihre Wertpapierabrechnungen im Menü Dokumente hochladen."
+    },
+    "steps": {
+      "first_step": "Nutzerkonto auswählen",
+      "second_step": "Daten eingeben",
+      "third_step": "Cashback-Bedingungen akzeptieren"
+    }
+  },
+  "overview": {
+    "kpi-cards": {
+      "costs": "Ausgaben",
+      "income": "Einnahmen",
+      "next_month": "Nächster Monat",
+      "liquidity": {
+        "subtitle": "Ende nächster Monat",
+        "title": "Liquidität (aktuell)",
+        "no_data_label": "Noch keine Liquiditätsdaten verfügbar. Bitte verknüpfen Sie ein Bankkonto im Menü Neue Bankverknüpfung."
+      },
+      "in": "im",
+      "title": "Wichtige Kennzahlen",
+      "description": "Die Anzeige von Kennzahlen-Kärtchen verwalten Sie im Menü Einnahmen & Ausgaben. Dort können Sie auch weitere Kärtchen hinzufügen.",
+      "no_data_label": "Noch keine Kennzahlen verfügbar. Bitte verknüpfen Sie ein Bankkonto im Menü Neue Bankverknüpfung."
+    },
+    "general": {
+      "liquidity_chart": {
+        "end_date": "Enddatum",
+        "hint": {
+          "weekly_value": "Saldo",
+          "value": "Saldo"
+        },
+        "no_data": "Noch keine Liquiditätsübersicht verfügbar. Bitte verknüpfen Sie ein Bankkonto im Menü Neue Bankverknüpfung.",
+        "start_date": "Startdatum",
+        "title": "Liquiditätsübersicht und -prognose"
+      },
+      "status-bar": {
+        "new-user-welcome": {
+          "title": "Willkommen beim persönlichen Finanzradar!",
+          "description": "Wir bieten Ihnen einen schnellen und umfassenden persönlichen Finanz-Check. Sie erhalten außerdem eine Liquiditätsprognose für die nächsten Monate und viele weitere Kennzahlen und Analysen Ihrer Finanzen."
+        },
+        "no-connection": {
+          "title": "Verknüpfen Sie ein Bankkonto, um loszulegen!",
+          "description": "Verknüpfen Sie Ihr Konto im Menü <0>Neue Bankverknüpfung</0>. Den Finanz-Check und die Liquiditätsprognosen ermitteln wir auf Basis der Buchungen."
+        },
+        "need-account-selection": {
+          "title": "Konfiguration der Sichtbarkeit von Konten notwendig",
+          "description": "Sind alle verknüpften Konten für die Anwendung relevant? Bitte konfigurieren Sie die Sichtbarkeit Ihrer Konten im Menü Bankkonten"
+        },
+        "need-resync": {
+          "title": "Neuabgleich des Bankkontos notwendig",
+          "description": "Die Synchronisation eines oder mehrerer Ihrer Bankkonten ist abgelaufen: {{accounts}}. Bitte nehmen Sie einen Neuabgleich im Menü Bankkonten vor."
+        }
+      }
+    },
+    "sme": {
+      "hints": {
+        "table": {
+          "columns": {
+            "date": "Datum",
+            "topic": "Thema"
+          }
+        },
+        "title": "Hinweise"
+      },
+      "liquidity_chart": {
+        "end_date": "Enddatum",
+        "hint": {
+          "weekly_value": "Saldo",
+          "value": "Saldo"
+        },
+        "no_data": "Noch keine Liquiditätsübersicht verfügbar. Bitte verknüpfen Sie ein Bankkonto im Menü Neue Bankverknüpfung.",
+        "start_date": "Startdatum",
+        "title": "Liquidität"
+      },
+      "signals": {
+        "table": {
+          "columns": {
+            "category": "Branche",
+            "date": "Datum",
+            "partner": "Partner",
+            "schedule": "Zahlweise",
+            "signal": "Signal"
+          },
+          "no_data": "Keine Daten vorhanden"
+        },
+        "title": "Handlungssignale"
+      },
+      "status-bar": {
+        "new-user-welcome": {
+          "title": "Willkommen beim Finanzradar!",
+          "description": "Wir bieten Ihnen einen schnellen und umfassenden Finanz-Check Ihres Unternehmens. Sie erhalten außerdem eine Liquiditätsprognose für die nächsten Monate und viele weitere Kennzahlen und Analysen für die Planung und Steuerung Ihres Unternehmens. Und das alles ohne Belege und ohne kompliziertes Buchhaltungs-Sprech."
+        },
+        "no-connection": {
+          "title": "Verknüpfen Sie ein Bankkonto, um loszulegen!",
+          "description": "Verknüpfen Sie Ihr Geschäftskonto im Menü <0>Neue Bankverknüpfung</0>. Den Finanz-Check und die Liquiditätsprognosen ermitteln wir auf Basis der Buchungen."
+        },
+        "need-account-selection": {
+          "title": "Konfiguration der Sichtbarkeit von Konten notwendig",
+          "description": "Sind alle verknüpften Konten für die Anwendung relevant? Bitte konfigurieren Sie die Sichtbarkeit Ihrer Konten im Menü Bankkonten"
+        },
+        "need-resync": {
+          "title": "Neuabgleich des Bankkontos notwendig",
+          "description": "Die Synchronisation eines oder mehrerer Ihres Bankkonten ist abgelaufen: {{accounts}}. Bitte nehmen Sie einen Neuabgleich im Menü Bankkonten vor."
+        }
+      }
+    },
+    "trader": {
+      "table": {
+        "columns": {
+          "total_order_volume": "Ordervolumen gesamt",
+          "trades": "Trades",
+          "wkn": "Ihre Top HVB WKNs"
+        },
+        "no_data": "Keine Daten vorhanden"
+      },
+      "status-bar": {
+        "new-user-welcome": {
+          "title": "Willkommen beim Cashback Tading!",
+          "description": "Wir sind der Anlaufpunkt für Trading Rewards, egal, bei welcher Bank Sie handeln. Traden für 0€, Ordergebühren-Rückerstattung und mehr. Seien Sie gespannt und schauen Sie immer wieder hier herein, was es Neues gibt. Denn manche Aktionen sind zeitbegrenzt."
+        },
+        "no-connection": {
+          "title": "Verknüpfen Sie ein Bankkonto, um loszulegen",
+          "description": "Verknüpfen Sie Ihr Bankkonto im Menü <0>Neue Bankverknüpfung</0>. Das ist notwendig, um Ihre Trades zu verifizieren. Cashbacks werden danach automatisch erkannt. Für den Smartbroker und die Hello-Bank Österreich gilt abweichend, dass Sie Ihre Wertpapierabrechnungen bitte im Menü <1>Dokumente</1> hochladen."
+        },
+        "need-account-selection": {
+          "title": "Konfiguration der Sichtbarkeit von Konten notwendig",
+          "description": "Sind alle verknüpften Konten für die Anwendung relevant? Bitte konfigurieren Sie die Sichtbarkeit Ihrer Konten im Menü Bankkonten"
+        },
+        "need-resync": {
+          "title": "Neuabgleich des Bankkontos notwendig",
+          "description": "Die Synchronisation eines oder mehrerer Ihres Bankkonten ist abgelaufen: {{accounts}}. Bitte nehmen Sie einen Neuabgleich im Menü Bankkonten vor."
+        },
+        "cashbacks": {
+          "title": "Cashback-Status",
+          "description": "Bisher {{cashback_number}} Cashbacks in Gesamthöhe von {{cashback_amount}}."
+        }
+      },
+      "sync_status": "Kontenstatus",
+      "sync_status_error": "Abgleich notwendig",
+      "sync_status_no_accounts": "Keine verknüpften Konten",
+      "sync_status_success": "Konten abgeglichen"
+    }
+  },
+  "partner": {
+    "privacy_policy": "Datenschutzbestimmungen",
+    "terms_of_use": "Nutzungsbedingungen"
+  },
+  "partners": {
+    "incorrect_birthdate": "Die Bedingungen dieses Partners verlangen, dass Sie mindestens 18 Jahre alt sind"
+  },
+  "password_strength": {
+    "too_short": "Zu kurz",
+    "weak": "Nicht sicher",
+    "okay": "Gut",
+    "strong": "Sicher",
+    "stronger": "Sehr sicher"
+  },
+  "periodicity": {
+    "annually": "Jährlich",
+    "bi_annually": "Alle zwei Jahre",
+    "bi_weekly": "Zweiwöchentlich",
+    "daily": "Täglich",
+    "monthly": "Monatlich",
+    "other": "Anderer Turnus",
+    "quarterly": "Vierteljährlich",
+    "twice_per_week": "Zweimal pro Woche",
+    "twice_per_year": "Halbjährlich",
+    "weekly": "Wöchentlich"
+  },
+  "profits_and_loss": {
+    "costs": "Ausgaben",
+    "end_date": "Enddatum",
+    "general": {
+      "title": "Einnahmen & Ausgaben"
+    },
+    "no_data": "Noch keine Daten für Einnahmen & Ausgaben verfügbar. Bitte verknüpfen Sie ein Bankkonto im Menü Neue Bankverknüpfung.",
+    "revenues": "Einnahmen",
+    "sme": {
+      "title": "Einnahmen & Ausgaben"
+    },
+    "start_date": "Startdatum",
+    "table": {
+      "columns": {
+        "type": "Art",
+        "toggle": "Kärtchen"
+      },
+      "no_data":"Keine Daten vorhanden"
+    }
+  },
+  "register": {
+    "email_already_exists": "E-Mail Adresse ist bereits in Verwendung",
+    "button_text": "Jetzt registrieren",
+    "terms_of_use": "Ich akzeptiere die <0>Nutzungsbedingungen</0> und <1>Datenschutzbestimmungen</1>."
+  },
+  "reports": {
+    "title": "Voransicht des Cashback-Reports",
+    "description": "Der Cashback-Report erzeugt eine druckbare Übersicht über die Cashbacks zu Trades in einem bestimmten Zeitraum. Diese Übersicht können Sie zu Ihren Unterlagen nehmen oder einreichen. Wählen Sie jetzt den Zeitraum des Reports aus - es gilt jeweils das Abrechnungsdatum (Valuta) der Trades - und klicken Sie dann auf Weiter.",
+    "continue": "Weiter",
+    "start_date": "Startdatum",
+    "end_date": "Enddatum",
+    "go_back": "Zurück",
+    "name_and_address": "Für {{firstName}} {{lastName}}, {{street}} {{houseNo}}, {{zip}} {{city}}",
+    "name_and_address_with_country": "Für {{firstName}} {{lastName}}, {{street}} {{houseNo}}, {{zip}} {{city}}, {{country}}",
+    "print": "Drucken",
+    "preview_title": "Cashback-Report",
+    "preview_description": "Nachfolgend sehen Sie eine Voransicht des Cashbacks-Reports. Wenn Sie diesen Report drucken oder exportieren möchten, klicken Sie bitte auf Drucken. Um den Zeitraum noch einmal zu ändern, klicken Sie auf Zurück.",
+    "reporting_period": "Zeitraum des Reports: {{start}} bis {{end}}",
+    "total_cashback_amount": "Gesamtbetrag der Cashbacks: {{amount}}",
+    "cash_back_in_details": "Detaillierte Liste der Cashbacks:",
+    "table": {
+      "payment_date": "Cashback-Zahlungsdatum",
+      "trading_date": "Handels-Valutadatum",
+      "context": "ISIN/WKN",
+      "trade_amount": "Genbuchter Orderbetrag",
+      "cashback_amount": "Cashback-Betrag"
+    },
+    "select_date": "Bitte geben Sie Start- und Enddatum ein, um fortzufahren.",
+    "errors": {
+      "wrong_period": "Das Enddatum darf nicht vor dem Startdatum liegen.",
+      "no_data": "In diesem Zeitraum gibt es keine Cashbacks."
+    }
+  },
+  "security": {
+    "amount":"Betrag",
+    "isin": "ISIN",
+    "name": "Name",
+    "quantity": "Menge",
+    "price": "Kurs",
+    "wkn": "WKN"
+  },
+  "securities": {
+    "table": {
+      "no_data": "Keine Wertpapiere verfügbar. Um Wertpapiere zu sehen, Depots in der Bankkonten-Übersicht hinzufügen"
+    }
+  },
+  "settings": {
+    "account": "Nutzerkonto",
+    "cashbacks_auto_redemption": "Cashbacks automatisch einlösen",
+    "delete_account": "Nutzerkonto löschen",
+    "delete_account_question": "Wollen Sie Ihr Nutzerkonto wirklich löschen?",
+    "email_notifications": "Benachrichtungs-Emails erhalten",
+    "personal_data": "Persönliche Daten"
+  },
+  "subscription": {
+    "category": "Kategorie",
+    "first_payment": "Erste Zahlung",
+    "industry": "Branche",
+    "last_payment": "Neueste Zahlung",
+    "name": "Name",
+    "number_of_transactions": "Buchungen",
+    "period": "Zahlweise",
+    "total_amount": "Gesamtbetrag" 
+  },
+  "tables": {
+    "no_data": "Keine Daten vorhanden"
+  },
+  "time": {
+    "today": "Heute",
+    "yesterday": "Gestern"
+  },
+  "transaction": {
+    "account_name": "Konto",
+    "amount": "Betrag",
+    "category": "Kategorie",
+    "category_path": "Kategorienpfad",
+    "counterparty_iban": "IBAN der Gegenpartei",
+    "counterparty_name": "Gegenpartei aus Buchung",
+    "detected_counterparty_name": "Gegenpartei",
+    "isin_wkn": "ISIN/WKN",
+    "mandate_reference": "Mandatsreferenz",
+    "purpose": "Verwendungszweck",
+    "value_date": "Datum"
+  },
+  "transaction-card": {
+    "discount": "{{amount}} Rabatt"
+  },
+  "transactions": {
+    "future_transactions_table": {
+      "no_data":"Keine Daten vorhanden",
+      "title": "Anstehende Buchungen"
+    },
+    "past_transactions_table": {
+      "no_data":"Keine Daten vorhanden",
+      "title": "Bisherige Buchungen"
+    }
+  },
+  "update_bank_connection": {
+    "up_to_date": "Der Abgleich ist aktuell. Daher war keine Synchronisation notwendig",
+    "423_error": "Neuabgleich derzeit nicht möglich, weil eine Synchronisation bereit im Hintergrund läuft"
+  },
+  "validation": {
+    "date": {
+      "invalid_format": "Fehler im Datum",
+      "past_today": "Das Geburtsdatum muss in der Vergangenheit liegen"
+    },
+    "email": {
+      "confirmation": "Email-Adressen stimmen nicht überein"
+    },
+    "pattern": "Fehler im Format",
+    "required": {
+      "checkbox": "Dies muss ausgefüllt werden",
+      "general": "Dies ist ein Pflichtfeld"
+    },
+    "password": {
+      "confirmation": "Passworte stimmen nicht überein",
+      "score": "Passwort ist nicht sicher genug"
+    }
+  },
+  "voucher": {
+    "code": "Code",
+    "discount_amount": "Ersparnis",
+    "shop_name": "Partner",
+    "title": "Angebot"
+  },
+  "regios": {
+    "title": "Willkommen bei REGIOS",
+    "sub_title": "Werde ein regionaler Held",
+    "card": {
+      "title": "Verbinden Sie ein Bankkonto, damit wir Ihre Ausgaben analysieren können",
+      "click_here": "Hier klicken um zu Starten"
+    },
+    "regional_affinity": "Regional affinity",
+    "expenses_last": "Expenses of last 30 days",
+    "your_last_expenses": "Your Last expenses"
+  },
+  "vouchers": {
+    "redeem_voucher_dialog": {
+      "copy_and_redeem": "Gutscheincode kopieren und einlösen",
+      "copy_code": "Gutscheincode kopieren",
+      "title": "Gutschein einlösen",
+      "voucher_code": "Gutscheincode",
+      "voucher_code_help": "(Code kopieren und auf Partner-Website einfügen)"
+    },
+    "table": {
+      "no_data":"Keine Daten vorhanden"
+    }
+  }
+}
